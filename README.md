@@ -30,5 +30,8 @@ cd todoSpring
 ```
 - Realizar build da aplicação
 
+## Rotas da aplicação
+<a href="todoSpringRoutes.json">JSON</a>
+
 
 
