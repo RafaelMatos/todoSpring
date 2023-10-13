@@ -32,23 +32,11 @@ public class FilterTaskAuth extends OncePerRequestFilter {
       // Pegar a autenticação (usuário e senha)
       var autorization = request.getHeader("Authorization");
 
-      System.out.println("autorization:");
-      System.out.println(autorization);
-
       var authEncoded = autorization.substring("Basic".length()).trim();
-
-      System.out.println("authEncoded:");
-      System.out.println(authEncoded);
 
       byte[] authDecoded = Base64.getDecoder().decode(authEncoded);
 
-      System.out.println("authDecoded:");
-      System.out.println(authDecoded);
-
       var authString = new String(authDecoded);
-
-      System.out.println("authString:");
-      System.out.println(authString);
 
       String[] credentials = authString.split(":");
 
