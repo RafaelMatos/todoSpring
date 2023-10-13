@@ -17,6 +17,7 @@ Nesse api é possivel cadastrar um usuário, realizar operações de CRUD para u
 ## Atualizações 🔃
   - Operações CRUD para tarefas;
   - Autenticação do usuário;
+  - Configuração do Docker para deploy;
 
 ## Como utilizar
 - Clone o projeto do repositório
